@@ -1,0 +1,5 @@
+#zhuce{width:1000px;height:500px;background:#ff0;margin:0 auto;}
+#zhuce form{width:500px;height:500px;background:#0ff;}
+#zhuce form  p{float:left;width:150px;text-align: right;font-size:14px;line-height:40px;padding-right:5px;}
+#zhuce form  p  span{color:red;font-size:6px;margin:5px;line-height:0;}
+#zhuce form  .kong{width:240px;height:38px;padding-right:20px;padding-left:4px;}
