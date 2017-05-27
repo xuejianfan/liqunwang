@@ -1,0 +1,120 @@
+
+{"list":[["img/banner/img02.jpg","img/banner/img03.jpg","img/banner/img04.jpg","img/banner/img05.jpg"],["img/banner/img09.jpg","img/banner/img06.jpg","img/banner/img07.jpg","img/banner/img08.jpg"],["img/banner/img10.jpg","img/banner/img11.jpg","img/banner/img12.jpg","img/banner/img13.jpg"]],
+	"miao":[[{"imgsrc":"img/banner1/img04.jpg",
+			"title":"有机麦片",
+			"money":"￥12",
+			"time":"2017-6-10 00:00:25"	
+		},{"imgsrc":"img/banner1/img30.jpg",
+			"title":"车仆玻璃水",
+		    "money":"￥201",
+		     "time":"2017-6-12 5:40:13"
+		},{"imgsrc":"img/banner1/img06.jpg",
+		"title":"牙牙乐",
+		 "money":"￥10",
+		 "time":"2017-6-10 5:40:56"
+		},
+		{"imgsrc":"img/banner1/img07.jpg",
+		"title":"果粒王",
+		 "money":"￥19.8",
+		 "time":"2017-6-10 15:40:28"
+		},
+		{"imgsrc":"img/banner1/img08.jpg",
+		"title":"吕氏洗头膏",
+		 "money":"￥99",
+		 "time":"2017-6-10 4:40:33"
+		},
+		{"imgsrc":"img/banner1/img09.jpg",
+		"title":"西王玉米胚芽油",
+		 "money":"￥98.3",
+		 "time":"2017-6-10 5:20:45"
+		},
+		{"imgsrc":"img/banner1/img10.jpg",
+		"title":"神器抽油烟机",
+		 "money":"￥998",
+		 "time":"2017-6-10 9:40:18"
+		},
+		{"imgsrc":"img/banner1/img11.jpg",
+		"title":"MDZZ智能空调",
+		 "money":"￥1299",
+		 "time":"2017-6-10 00:40:09"
+		}
+		],[
+		{"imgsrc":"img/banner1/img12.jpg",
+			"title":"神剑笔记本",
+			"money":"￥3999",
+			"time":"2017-6-14 12:00:16"	
+		},{"imgsrc":"img/banner1/img13.jpg",
+			"title":"nuk奶瓶",
+		    "money":"￥71",
+		     "time":"2017-6-15 5:40:23"
+		},{"imgsrc":"img/banner1/img14.jpg",
+		"title":"黄色厨房湿巾",
+		 "money":"￥49",
+		 "time":"2017-6-10 18:40:32"
+		},
+		{"imgsrc":"img/banner1/img15.jpg",
+		"title":"望向挂面",
+		 "money":"￥15.4",
+		 "time":"2017-6-10 9:40:27"
+		},
+		{"imgsrc":"img/banner1/img16.jpg",
+		"title":"蓝色洗面奶",
+		 "money":"￥108",
+		 "time":"2017-6-10 8:37:41"
+		},
+		{"imgsrc":"img/banner1/img17.jpg",
+		"title":"洗面奶套装",
+		 "money":"￥188",
+		 "time":"2017-6-10 20:20:44"
+		},
+		{"imgsrc":"img/banner1/img18.jpg",
+		"title":"NEO面膜",
+		 "money":"￥398",
+		 "time":"2017-6-10 16:28:16"
+		},
+		{"imgsrc":"img/banner1/img19.jpg",
+		"title":"haier智能洗衣机",
+		 "money":"￥2299",
+		 "time":"2017-6-10 21:40:25"
+		}
+		],[
+		{"imgsrc":"img/banner1/img20.jpg",
+			"title":"合生元",
+			"money":"￥122",
+			"time":"2017-6-12 00:00:26"	
+		},{"imgsrc":"img/banner1/img21.jpg",
+			"title":"奇强洗衣液",
+		    "money":"￥291",
+		     "time":"2017-6-18 5:40:31"
+		},{"imgsrc":"img/banner1/img02.gif",
+		"title":"华为智能手机",
+		 "money":"￥2980",
+		 "time":"2017-6-17 5:40:18"
+		},
+		{"imgsrc":"img/banner1/img24.jpg",
+		"title":"华为手机套",
+		 "money":"￥23.9",
+		 "time":"2017-6-12 15:40:19"
+		},
+		{"imgsrc":"img/banner1/img25.jpg",
+		"title":"金龙鱼大米",
+		 "money":"￥79",
+		 "time":"2017-6-13 4:40:29"
+		},
+		{"imgsrc":"img/banner1/img27.jpg",
+		"title":"多功能插板",
+		 "money":"￥24.9",
+		 "time":"2017-6-11 5:20:39"
+		},
+		{"imgsrc":"img/banner1/img28.jpg",
+		"title":"智能打火灶",
+		 "money":"￥398",
+		 "time":"2017-6-11 9:40:57"
+		},
+		{"imgsrc":"img/banner1/img26.jpg",
+		"title":"海尔智能电视机",
+		 "money":"￥1299",
+		 "time":"2017-6-13 00:40:52"
+		}
+		]]
+}

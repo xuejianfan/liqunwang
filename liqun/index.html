@@ -7,14 +7,21 @@
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/banner.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/template.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>	
+	    <script src="js/lou.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
 		<div  id="header">
 			<a id="head"><img src="img/header/head.jpg"/></a>
 			<div id="head-nav">
-			hi,欢迎来到利群商城！
-			 <a href="#">请登录</a>
-			 <a href="#">免费注册</a>
+				<div id="head-user">
+					hi,欢迎来到利群商城！
+			 <a href="denglu.html">请登录</a>
+			 <a href="zhuce.html">免费注册</a>
+				</div>
+			
 			 <ul  id="head-ul">
 			 	<li><a href="#">我的订单 </a><li>|</li></li>
 			 	<li><span class="head-tu"><img src="img/header/vip.jpg"/></span><a href="#">会员中心</a><li>|</li></li>
@@ -88,38 +95,49 @@
 			 	<li>
 			 		<div class="banner-top"><span>全球购</span><span class="banner-tops">></span></div>
 			 		<div class="banner-bottom"><a href="#">母婴</a><a href="#">食品保健</a><a href="#">美妆</a></div>
+			 		<div  class="content"></div>
 			 	</li>
 			 	<li>
 			 		<div class="banner-top"  style="background-position: left -3px top 0;"><span>民生食品</span><span class="banner-tops">></span></div>
 			 		<div class="banner-bottom"><a href="#">酱油调味</a><a href="#">生鲜</a></div>
+			 		<div  class="content"></div>
+			 		
+			 		
 			 	</li>
 			 	<li>
 			 		<div class="banner-top" style="background-position: left -3px top -53px;"><span>零食酒水</span><span class="banner-tops">></span></div>
 			 		<div class="banner-bottom"><a href="#">休闲零食</a><a href="#">饮料</a><a href="#">酒</a></div>
+			 		<div  class="content"></div>
 			 	</li>
 			 	<li>
 			 		<div class="banner-top" style="background-position: left -3px top -103px;"><span>美妆洗护</span><span class="banner-tops">></span></div>
 			 		<div class="banner-bottom"><a href="#">洗护</a><a href="#">面部护理</a><a href="#">彩妆</a></div>
+			 		<div  class="content"></div>
 			 	</li>
 			 	<li>
 			 		<div class="banner-top" style="background-position: left -3px top -156px;"><span>日用百货</span><span class="banner-tops">></span></div>
 			 		<div class="banner-bottom"><a href="#">生活用纸</a><a href="#">清洁</a><a href="#">居家</a></div>
+			 		<div  class="content"></div>
 			 	</li>
 			 	<li>
 			 		<div class="banner-top" style="background-position: left -3px top -204px;"><span>母婴玩具</span><span class="banner-tops">></span></div>
 			 		<div class="banner-bottom"><a href="#">奶粉</a><a href="#">尿裤</a><a href="#">洗护</a><a href="#">喂养</a></div>
+			 		<div  class="content"></div>
 			 	</li>
 			 	<li>
 			 		<div class="banner-top" style="background-position: left -3px top -253px;"><span>手机数码</span><span class="banner-tops">></span></div>
 			 		<div class="banner-bottom"><a href="#">手机</a><a href="#">电脑</a><a href="#">相机</a><a href="#">办公</a></div>
+			 		<div  class="content"></div>
 			 	</li>
 			 	<li>
 			 		<div class="banner-top" style="background-position: left -3px top -303px;"><span>家用电器</span><span class="banner-tops">></span></div>
 			 		<div class="banner-bottom"><a href="#">大家电</a><a href="#">小家电</a><a href="#">热水器</a></div>
+			 		<div  class="content"></div>
 			 	</li>
 			 	<li>
 			 		<div class="banner-top" style="background-position: left -3px top -353px;"><span>虚拟服务</span><span class="banner-tops">></span></div>
 			 		<div class="banner-bottom"><a href="#">便民缴费</a><a href="#">旅游</a><a href="#">图书</a></div>
+			 		<div  class="content"></div>
 			 	</li>
 			 </ul>
 			 <div  class="lunbo">
@@ -171,8 +189,133 @@
 			 	</div>
 			 </div>
 		</div>
+		<!--      bannner1-->
+		<div  id="menu">
+			<a id="menu-left" href="#"><img src="img/banner/menu.gif"/></a>
+			<div id="menu-right">
+				<div  class="sliderBox">
+				<ul class="sliderList">
+				</ul>
+				<div class="sliderBtns">
+					<div class="btns"><img src="img/banner1/left.png"/></div>
+					<div class="btns"><img src="img/banner1/right.png"/></div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div  id="miaosha">
+			<a id="miao-left" href="#"><img src="img/banner/img01.jpg"/></a>
+		<div id="miao-zhong">
+				<div  class="miao-box">
+				<ul  class="miaolist">
+				</ul>
+				<div class="sliderBtn">
+				<div class="btns"><img src="img/banner1/left_btn.jpg"/></div>
+				<div class="btns"><img src="img/banner1/right_btn.jpg"/></div>
+				</div>
+			</div>
+		</div>
+			<div  id="miao-right">
+				<a href="#"><img src="img/banner1/pic1.jpg"/></a>
+			<a href="#"><img src="img/banner1/pic2.jpg"/></a>
+			</div>
+			
+		</div>
+		<div id="cao">
+			 <a href="#"><img src="img/banner1/head1.jpg"/></a>
+		</div>
+		
+		<!--    楼层开始-->
+		<div id="LoutiNav">
+			<ul>
+				<li><span>在线服务</span></li>
+				<li><span>服饰</span> </li>
+				<li><span>美妆</span> </li>
+				<li><span>手机</span> </li>
+				<li><span>家电</span> </li>
+				<li><span>数码</span> </li>
+				<li><span>运动</span> </li>
+				<li ><span>回到顶部</span></li>
+			</ul>
+		</div>
+
+		<!--楼层内容开始-->
+		<div id="main">
+			<div class="Louti" >
+				<div class="lou-left">
+					<h2>1F<span>生活超市</span></h2>
+					<ul  class="louming">
+						<li><a href="#">食用油</a></li>
+						<li><a href="#">大米</a></li>
+						<li><a href="#">面粉</a></li>
+						<li><a href="#">挂面</a></li>
+						<li><a href="#">厨房调味</a></li>
+						<li><a href="#">白酒</a></li>
+						<li><a href="#">啤酒</a></li>
+						<li><a href="#">水</a></li>
+						<li><a href="#">麦片</a></li>
+						<li><a href="#">饼干糕点</a></li>
+						<li><a href="#">蔬菜</a></li>
+						<li><a href="#">洗衣液</a></li>
+						<li><a href="#">卷纸</a></li>
+						<li><a href="#">抽纸</a></li>
+					</ul>
+					<div class="left-banner">
+			 		<ul class="list">
+			 			<li><a href="#"><img src="img/1f/pic23.jpg"/></a></li>
+			 			<li><a href="#"><img src="img/1f/pic24.jpg"/></a></li>
+			 			<li><a href="#"><img src="img/1f/pic35.jpg"/></a></li>
+			 		</ul>
+			 		<ul class="lou-ul">
+			 			<span  class="lou-hover"></span><span></span><span></span>
+			 		</ul>
+			 	</div>
+					
+				</div>
+				<div class="lou-banner">
+					<ul class="list">
+			 			<li><a href="#"><img src="img/1f/pic31.jpg"/></a></li>
+			 			<li><a href="#"><img src="img/1f/pic32.jpg"/></a></li>
+			 			<li><a href="#"><img src="img/1f/pic33.jpg"/></a></li>
+			 		</ul>
+			 		<ul class="last-ul">
+			 			<span  class="last-hover"></span><span></span><span></span>
+			 		</ul>
+					
+				</div>
+				<div class="lou-right">
+					 <ul>
+					 	<li>精选特卖</li>
+					 	<li>面部护理</li>
+					 	<li>个人护理</li>
+					 	<li>香氛彩妆</li>
+					 	<li>男士护理</li>
+					 </ul>
+					<div  class="lou-last"></div>
+				</div>
+				
+			</div>
+			<div class="Louti" style="background: #999933;">
+				美妆
+			</div>
+			<div class="Louti" style="background: #ccff33;">
+				手机
+			</div>
+			<div class="Louti" style="background: #006633;">
+				家电
+			</div>
+			<div class="Louti" style="background: #6666cc;">
+				数码
+			</div>
+			<div class="Louti" style="background: #ff6600;">
+				运动
+			</div>
+
+		</div>
 		
 		
+		
+
 		<!--    footer-->
 		<div id="bottom">
 			<ul>
@@ -249,15 +392,49 @@
 		    	<a href="#"><img src="img/footer/tip_pic3.png"/></a>
 		    </ul>
 		</div>
+		 
+    <script  id="tabs"  type="text/html">
+    			<div  class="banner-ye">
+			 			 {{each list as value}}
+			 			    <div class="yema-con">
+			 			    	<div class="yema-top">
+			 			    	<img src={{value.top.imgsrc}} /><a href="">{{value.top.title}}</a><span>{{value.top.last}}</span>
+			 			    	</div>
+			 			    	<div class="yema-zhong">
+			 			    		{{each value.zhong  as k }}
+			 			    		<a href="#">{{value.zhong[k]}}</a>
+			 			    		{{/each}}
+			 			    	</div>
+			 			    	<div class="yema-bottom">
+			 			    		 <h4>{{value.bottom.title}}</h4>
+			 			    		{{each value.bottom.name as j}}
+			 			    		   <a href="#">{{j}}</a>
+			 			    		{{/each}}
+			 			    	</div>
+			 			    </div>
+			 			 {{/each}}
+			 			 
+			 		</div>
+    </script>
 		
 		
 		
+		<script   type="text/javascript">
+		banner($(".lunbo li"),$("#list-btn span"),"list-hover");
+			banner($("#banner-last li"),$(".btn-ul span"),"ul-hover");
+			banner($(".left-banner li"),$(".lou-ul span"),"lou-hover");
+			banner($(".lou-banner  li"),$(".last-ul  span"),"last-hover");
+			 if(chacookie("username")!=undefined){
+			 	$("#head-user").html("hi，"+chacookie("username")+"欢迎来到利群商城"+"<a id='tuichu' href='index.html'> 退出</a>");
+			 }
+			$("#tuichu").on("click",function(){
+				   removecookie("username",-2);
+				   if(chacookie("username")!=undefined){}else{
+				   	$("#head-user").html("hi,欢迎来到利群商城!"+"<a href='denglu.html'> 请登录 </a><a href='zhuce.html'> 免费注册 </a>");   
+				   }
 		
-		
-		<script>
-	banner($(".lunbo li"),$("#list-btn span"),"list-hover","bannertimer1");
-			banner($("#banner-last li"),$(".btn-ul span"),"ul-hover","bannertimer2");
-			
+			});
+
 		</script>
 	</body>
 </html>

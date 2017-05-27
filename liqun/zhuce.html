@@ -6,8 +6,15 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<link rel="stylesheet" type="text/css" href="css/zhuce.css"/>
 		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/zhuce.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
+		 <div  id="box">
+			<div>
+				<p>恭喜您注册成功<br />请保管好您的账号和密码，避免泄露</p>
+				<a >确定</a>
+			</div>
+		</div>
 		<div  id="header">
 			<div id="head-nav">
 			hi,欢迎来到利群商城！
@@ -56,12 +63,39 @@
 		  	  </div>
 		  </div>
 		  
-		  
+		 <!--      zhuce  --> 
 		  <div id="zhuce">
 		       <form>
-		       	<p><span>*</span>账户名：</p>
-		       	<div class="zhang"><input class="kong" type="text" placeholder="邮箱/用户名/手机号"></div>
+		      
+		       	<div class="zhuang"> 	
+		       		<p><span>*</span>账户名：</p>
+		       		<input class="kong" name="username" type="text" id="txt" placeholder="邮箱/用户名/手机号">
+		       		<span  class="xian">请输入邮箱/手机号</span>
+		       	</div>
 		       	
+		       	 <div class="zhuang">
+		       	 	<p><span>*</span>请设置密码：</p>
+		       		<input class="kong" name="password" type="password" id="mima" >
+		       		<span  class="xian"  id="mima-first">6-20位字符，可使用字母，数字或符号的组合，不建议使用纯数字，纯字母，纯符号</span>
+		       		<div  id="pan">安全程度：<span>弱</span><span>中</span><span>强</span></div>
+		       	 </div>
+		       	 <div class="zhuang">
+		       	 	<p><span>*</span>请确认密码：</p>
+		       		<input class="kong" type="password" name="chongmima" id="chong" >
+		       		<span  class="xian">请再次输入密码</span>
+		       	</div>
+		       	  <div class="zhuang" id="yzm">
+		       	 	<p><span>*</span>验证码：</p>
+		       	 	<img src="zhuce/GetValidateCode.jpg"/>
+		       		<input class="kong" type="text"  >	
+		       		<span  id="huan">看不清?</span><a href="#">换一张</a>
+		       	</div>
+		       
+		       		<input type="checkbox" checked="" id="xuan">
+		       		<div  id="xuan-zi"><span>我已阅读并同意</span> <a href="#">《利群商城交易条款》</a></div>
+					<span  class="xian">请接收服务条款</span>
+		       	<input type="button" id="btn" value="立即注册"/>
+	
 		       </form>	
 		  </div>
 		  
@@ -100,7 +134,6 @@
 		    	<a href="#"><img src="img/footer/tip_pic3.png"/></a>
 		    </ul>
 		</div>
-		
 	
 	</body>
 </html>

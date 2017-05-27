@@ -1,5 +1,68 @@
-#zhuce{width:1000px;height:500px;background:#ff0;margin:0 auto;}
-#zhuce form{width:500px;height:500px;background:#0ff;}
-#zhuce form  p{float:left;width:150px;text-align: right;font-size:14px;line-height:40px;padding-right:5px;}
+#top-nav a:hover{color:red;}
+body{width:100%:height:100%;}
+#zhuce{width:1000px;height:500px;margin:0 auto;}
+#zhuce form{width:700px;height:460px;padding-top:40px;}
+#zhuce form  p{float:left;width:150px;text-align: right;font-size:14px;line-height:38px;padding-right:5px;}
 #zhuce form  p  span{color:red;font-size:6px;margin:5px;line-height:0;}
-#zhuce form  .kong{width:240px;height:38px;padding-right:20px;padding-left:4px;}
+#zhuce form .zhuang{height:70px;}
+#zhuce form  .kong{float:left;width:240px;height:35px;padding-right:25px;border:1px solid #e3e3e3;padding-left:4px;}
+#zhuce form  #txt,#mima,#chong{background:#fff url(../zhuce/one4.jpg);
+                                background-repeat: no-repeat;
+                                background-position: right 3px top 11px ;}
+#zhuce form  #mima,#chong{	background:#fff  ;
+                                background-image:url(../zhuce/one5.jpg);
+                                 background-repeat: no-repeat;
+                                background-position: right 3px top 11px ;
+                              }
+#zhuce form  #pan{display:none;float:left;width:300px;padding-left:277px;padding-top:4px;}
+#zhuce form .zhuang #pan span {display:inline-block;padding:0 8px;height:12px;color:#fff;line-height:12px;font-size:12px;margin:2px 1px;background:#b5b4b4;}
+#zhuce form .xian{display:none;float:left;border:1px solid #fb5859;height:35px;line-height:35px;width:230px;color:#b1191b;background:#fedfdd;padding-left:4px;margin:1px 0 0 3px;}
+#zhuce form  #xuan-zi{height:30px;float:left;width:255px;padding-top:10px;}
+#zhuce form  #yzm{height:100px;}
+#zhuce form  #yzm  p{margin-right:10px;}
+#zhuce form  #yzm input{width:100px;margin:10px 4px 0 155px }
+#zhuce form  #yzm #huan{line-height:55px;margin-right:5px;}
+#zhuce form  #yzm  a{color:blue;}
+#zhuce form #xuan {margin-left:155px;float:left;margin-top:13px;}
+#zhuce form #btn{float:left;width:270px;height:35px;margin-left:155px;background:#fc595a;border:0;border-radius: 5px;margin-top:20px;color:#fff;font-size:18px;}
+#zhuce form  #mima-first{line-height:16px;font-size:12px;}
+
+
+
+/*       弹窗*/
+			#box{
+		 				width:100%;
+		 				height:100%;
+		 				position:absolute;
+		 				display:none;
+		 				z-index:99;
+		 				left:0;
+		 				top:0;
+		 			
+		 			}
+		 			#box  div{
+		 				padding:0 20px;
+		 				width:200px;
+		 				height:180px;
+		 				position:absolute;
+		 				left:500px;top:200px;
+		 				border:1px solid #CCCCCC;
+		 				background:#fff;
+		 			}
+		 			#box  div  p{
+		 				
+		 				line-height:30px;
+		 			}
+		 			#box  div a{
+		 				display:block;
+		 				height:30px;
+		 				width:100px;
+		 				line-height:30px;
+		 				text-align:center;
+		 				border-radius:4px;
+		 				background:red;
+		 				margin:50px  auto 10px;
+		 				
+		 				color:#fff;
+		 				text-decoration:none;
+		 			}
