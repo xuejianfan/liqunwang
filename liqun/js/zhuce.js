@@ -1,15 +1,5 @@
 $(function(){
 	/*   shujujiaohu*/
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	$("#txt,#mima,#chong").on("focus",function(){
 		 $(this).next("span").show();
 		 $(this).attr("placeholder","");
@@ -143,4 +133,18 @@ $(function(){
 					}
  
 	 };   
+});
+
+$(function(){
+	
+	 if(chacookie("username")!=undefined){
+			 	$("#head-user").html("hi，"+chacookie("username")+"欢迎来到利群商城"+"<a id='tuichu' href='index.html'> 退出</a>");
+			 }
+			$("#tuichu").on("click",function(){
+				   removecookie("username",-2);
+				   if(chacookie("username")!=undefined){}else{
+				   	$("#head-user").html("hi,欢迎来到利群商城!"+"<a href='denglu.html'> 请登录 </a><a href='zhuce.html'> 免费注册 </a>");   
+				   }
+		
+			});	
 });

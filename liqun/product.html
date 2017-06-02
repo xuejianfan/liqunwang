@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品列表</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/product.css"/>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/template.js" type="text/javascript" charset="utf-8"></script>
+		 <script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		 <script src="js/product.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/style.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		    <div id="dingbu"><span>回到<br />顶部</span></div>
+			<div  id="header">
+			<a id="head"><img src="img/header/head.jpg"/></a>
+			<div id="head-nav">
+				<div id="head-user">
+					hi,欢迎来到利群商城！
+			 <a href="denglu.html">请登录</a>
+			 <a href="zhuce.html">免费注册</a>
+				</div>
+			
+			 <ul  id="head-ul">
+			 	<li><a href="gouwu.html">我的订单 </a><li>|</li></li>
+			 	<li><span class="head-tu"><img src="img/header/vip.jpg"/></span><a href="product.html">会员中心</a><li>|</li></li>
+			 	<li id="head-chu">
+			 		<a href="product.html">客户服务</a><span id="head-jiao" ><img src="img/header/customer_service.jpg"/></span>
+			 		<ul>
+			 			<li><a href="product.html">帮助中心</a></li>
+			 			<li><a href="product.html">售后服务</a></li>
+			 			<li><a href="product.html">在线投诉</a></li>
+			 		</ul>
+			 	</li> <li>|</li>
+			 	<li><span class="head-tu"><img src="img/header/liqun_mobile.jpg"/></span><a href="product.html">手机利群</a><li>|</li></li>
+			 	<li ><a id="wang" href="product.html">利群官网</a><li>|</li></li>
+			 	<li><span class="guanzhu"> 关注利群：</span></li>
+			    <li><span id="head-td"><img src="img/header/tdcode.jpg"/>
+			    	<div id="head-td-chu"><img src="img/header/code_small.jpg"/></div>
+			    </span>
+			    	
+                    <a href="product.html"><img src="img/header/qq.jpg"/></a>
+                    <a id="head-right" href="product.html"><img src="img/header/sina.jpg"/></a>
+			 </ul>
+			</div>	
+		</div>
+		  <div id="top">
+		  	  <h1 id="logo"><a href="index.html"></a><a href="product.html"><img src="img/header/3571.gif"/></a></h1>
+		  	  <form>
+		  	  	   <div id="top-shuru"><input placeholder="欧莱雅" type="text" id="shuru"/></div>
+		  	  	   <input type="button" id="seach" value="搜  索">
+		  	  	   <div id="top-nav"> 热门搜索： <a href="product.html">数码专场</a>
+		  	  	   				<a href="product.html">小家电大促</a>
+		  	  	   				<a href="product.html">大家电</a>
+		  	  	   				<a href="product.html">美妆大促</a>
+		  	  	   				<a href="product.html">母婴专场</a>
+		  	  	   				<a href="product.html">超市专场</a>
+		  	  	   				<a href="product.html">全球购钜惠</a>
+		  	  	   </div>
+		  	  </form>
+		  	  <!--      购物车-->
+		  	  <div id="top-right">
+		  	  	 <a href="gouwu.html" id="top-che"><p>0</p></a>
+		  	  	 <img src="img/header/hot_tel.jpg"/>
+		  	  </div>
+		  </div>
+		<!--    nav -->
+		
+		
+		<div id="navs">
+	 <div  id="nav">
+	 	 <div id="nav-left"><p>全部商品分类</p>
+	 	 	<ul id="banner-ul">
+			 	<li>
+			 		<div class="banner-top"><span>全球购</span><span class="banner-tops">></span></div>
+			 		<div class="banner-bottom"><a href="product.html">母婴</a><a href="product.html">食品保健</a><a href="product.html">美妆</a></div>
+			 		<div  class="content"></div>
+			 	</li>
+			 	<li>
+			 		<div class="banner-top"  style="background-position: left -3px top 0;"><span>民生食品</span><span class="banner-tops">></span></div>
+			 		<div class="banner-bottom"><a href="product.html">酱油调味</a><a href="product.html">生鲜</a></div>
+			 		<div  class="content"></div>
+			 		
+			 		
+			 	</li>
+			 	<li>
+			 		<div class="banner-top" style="background-position: left -3px top -53px;"><span>零食酒水</span><span class="banner-tops">></span></div>
+			 		<div class="banner-bottom"><a href="product.html">休闲零食</a><a href="product.html">饮料</a><a href="product.html">酒</a></div>
+			 		<div  class="content"></div>
+			 	</li>
+			 	<li>
+			 		<div class="banner-top" style="background-position: left -3px top -103px;"><span>美妆洗护</span><span class="banner-tops">></span></div>
+			 		<div class="banner-bottom"><a href="product.html">洗护</a><a href="product.html">面部护理</a><a href="product.html">彩妆</a></div>
+			 		<div  class="content"></div>
+			 	</li>
+			 	<li>
+			 		<div class="banner-top" style="background-position: left -3px top -156px;"><span>日用百货</span><span class="banner-tops">></span></div>
+			 		<div class="banner-bottom"><a href="product.html">生活用纸</a><a href="product.html">清洁</a><a href="product.html">居家</a></div>
+			 		<div  class="content"></div>
+			 	</li>
+			 	<li>
+			 		<div class="banner-top" style="background-position: left -3px top -204px;"><span>母婴玩具</span><span class="banner-tops">></span></div>
+			 		<div class="banner-bottom"><a href="product.html">奶粉</a><a href="product.html">尿裤</a><a href="product.html">洗护</a><a href="product.html">喂养</a></div>
+			 		<div  class="content"></div>
+			 	</li>
+			 	<li>
+			 		<div class="banner-top" style="background-position: left -3px top -253px;"><span>手机数码</span><span class="banner-tops">></span></div>
+			 		<div class="banner-bottom"><a href="product.html">手机</a><a href="product.html">电脑</a><a href="product.html">相机</a><a href="product.html">办公</a></div>
+			 		<div  class="content"></div>
+			 	</li>
+			 	<li>
+			 		<div class="banner-top" style="background-position: left -3px top -303px;"><span>家用电器</span><span class="banner-tops">></span></div>
+			 		<div class="banner-bottom"><a href="product.html">大家电</a><a href="product.html">小家电</a><a href="product.html">热水器</a></div>
+			 		<div  class="content"></div>
+			 	</li>
+			 	<li>
+			 		<div class="banner-top" style="background-position: left -3px top -353px;"><span>虚拟服务</span><span class="banner-tops">></span></div>
+			 		<div class="banner-bottom"><a href="product.html">便民缴费</a><a href="product.html">旅游</a><a href="product.html">图书</a></div>
+			 		<div  class="content"></div>
+			 	</li>
+			 </ul>
+	 	 </div>
+	 	 <ul class="nav-right">
+	 	 	<li><a href="index.html">首页</a></li>
+	 	 	<li>
+	 	 		<a href="product.html">利群网商</a>
+	 	 		<img src="img/header/new.jpg"/>
+	 	 	</li>
+	 	 	<li><a href="product.html">全球购</a>
+	 	 			<img src="img/header/hot.jpg"/>
+	 	 	</li>
+	 	 	<li><a href="product.html">生鲜</a></li>
+	 	 	<li><a href="product.html">超市</a></li>
+	 	 	<li><a href="product.html">母婴馆</a></li>
+	 	 	<li><a href="product.html">利群团</a>
+	 	 			<img src="img/header/postage.jpg"/>
+	 	 	</li>
+	 	 	<li><a href="product.html">医药</a></li>
+	 	 	<li><a href="product.html">积分商城</a></li>
+	 	 	<li><a href="product.html">手机充值</a>
+	 	 			<img src="img/header/new.jpg"/>
+	 	 	</li>
+	 	 </ul>
+	 </div>
+	</div>
+	<div id="seach-top">
+		<h3></h3><div >当前位置>手机</div>
+	</div>
+	<div id="section">
+		<div id="sec-left">
+			<ul class="sec-main">
+				<h3>所有类目</h3>
+				<p><b></b>手机通讯</p>
+				<li><a href="product.html">手机</a> </li>
+			</ul>
+			<ul class="sec-menu">
+				<h3>热卖商品</h3>
+				<li><a href="product.html" class="sec-pic"><img src="product/img01.jpg"/></a>
+					<a href="product.html" class='sec-zi'>Apple iphone7Plus</a>
+					<p>商城价：￥6999.00</p>
+				</li>
+				
+				<li><a href="product.html" class="sec-pic"><img src="product/img01.jpg"/></a>
+					<a href="product.html" class='sec-zi'>Apple iphone7Plus</a>
+					<p>商城价：￥6999.00</p>
+				</li>
+				
+				<li><a href="product.html" class="sec-pic"><img src="product/img01.jpg"/></a>
+					<a href="product.html" class='sec-zi'>Apple iphone7Plus</a>
+					<p>商城价：￥6999.00</p>
+				</li>
+				
+				<li><a href="product.html" class="sec-pic"><img src="product/img01.jpg"/></a>
+					<a href="product.html">Apple iphone7Plus</a>
+					<p>商城价：￥6999.00</p>
+				</li>
+				<li><a href="product.html" class="sec-pic"><img src="product/img01.jpg"/></a>
+					<a href="product.html"  class='sec-zi'>Apple iphone7Plus</a>
+					<p>商城价：￥6999.00</p>
+				</li>
+				
+			</ul>
+		</div>
+		<div id="sec-right">
+			<ul  id="right-top">
+				<h3><div class="attr">商品分类</div></h3>
+				<li><div class="attr">品牌：</div><a href="product.html">VIVO</a><a href="product.html">华为</a><a href="product.html">小米</a><a href="product.html">htc</a><a href="product.html">荣耀</a><a href="product.html">Iphone</a><a href="product.html">三星</a><a href="product.html">OPPO</a><a href="product.html">酷派</a><a href="product.html">金立</a><a href="product.html">魅族</a></li>
+				<li><div class="attr">屏幕尺寸：</div><a href="product.html">3.0英寸及以下</a><a href="product.html">3.0-4.0英寸</a><a href="product.html">4.1-4.9英寸</a><a href="product.html">5.0-5.5英寸</a><a href="product.html">5.6英寸及以上</a></li>
+				<li><div class="attr">系统属性：</div><a href="product.html">安卓（Android）</a><a href="product.html">微软（Windows Phone）</a><a href="product.html">苹果（IOS）</a><a href="product.html">其他</a></li>
+				<li><div class="attr">运营商：</div><a href="product.html">联通3G</a><a href="product.html">移动4G</a><a href="product.html">电信3G</a><a href="product.html">GSM(联通移动2G)</a><a href="product.html">移动4G</a><a href="product.html">联通4G</a><a href="product.html">电信4G</a></li>
+				<li><div class="attr">cpu：</div><a href="product.html">单核</a><a href="product.html">双核</a><a href="product.html">四核</a><a href="product.html">八核</a></li>
+			</ul>
+			<ul id="right-tit">
+				<li><div class="attr">排列方式：</div></li>
+				<li><span><a href="product.html">销量</a></span><span><a href="product.html">新品</a></span><span><a href="product.html">价格</a></span></li>
+				<li><a href="product.html"><span></span>利群自营</a><a href="product.html"><span></span>平台商家</a></li>
+			</ul>
+			<ul id="right-tab">
+				<li></li>
+			</ul>
+			<div id="yemas">
+			<div id="yema">
+				<span></span>
+				<span></span>
+				 <a href="javascript:void(0);">首页</a>
+				 <a href="javascript:void(0);">上一页</a>
+				 <div id="shuzi">  </div>
+				 <a href="javascript:void(0);">下一页</a>
+				 <a href="javascript:void(0);">未页</a>
+				 <span></span>
+				 <span></span>
+			</div>
+			</div>
+		</div>
+	</div>
+	<!--    footer-->
+		<div id="bottom">
+			<ul>
+				<li><h3><a href="product.html" >购物指南</a></h3>
+					<a href="product.html"><img src="img/footer/foot_icon.jpg"/>购物流程</a>
+					<a href="product.html"><img src="img/footer/foot_icon.jpg"/>会员介绍</a>
+					<a href="product.html"><img src="img/footer/foot_icon.jpg"/>发票制度</a>
+					<a href="product.html"><img src="img/footer/foot_icon.jpg"/>积分政策</a>
+					<a href="product.html"><img src="img/footer/foot_icon.jpg"/>常见问题</a>
+				</li>
+				<li><h3><a href="product.html" >配送方式</a></h3>
+					<a href="product.html"><img src="img/footer/foot_icon.jpg"/>自提服务</a>
+					<a href="product.html"><img src="img/footer/foot_icon.jpg"/>送货上门</a>
+					<a href="product.html"><img src="img/footer/foot_icon.jpg"/>配送范围及时间</a>
+					<a href="product.html"><img src="img/footer/foot_icon.jpg"/>全球购配送说明</a>
+				</li>
+				<li><h3><a href="product.html" >支付方式</a></h3>
+					<a href="product.html"><img src="img/footer/foot_icon.jpg"/>线上支付</a>
+					<a href="product.html"><img src="img/footer/foot_icon.jpg"/>货到付款</a>
+					<a href="product.html"><img src="img/footer/foot_icon.jpg"/>利群金卡支付</a>
+					<a href="product.html"><img src="img/footer/foot_icon.jpg"/>礼品卡支付</a>
+				</li>
+				<li><h3><a href="product.html" >售后服务</a></h3>
+					<a href="product.html"><img src="img/footer/foot_icon.jpg"/>退货款政策</a>
+					<a href="product.html"><img src="img/footer/foot_icon.jpg"/>退款说明</a>
+					<a href="product.html"><img src="img/footer/foot_icon.jpg"/>品牌售后服务电话</a>
+					<a href="product.html"><img src="img/footer/foot_icon.jpg"/>投诉与建议</a>
+				</li>
+				<li><h3><a href="product.html" >商家服务</a></h3>
+					<a href="product.html"><img src="img/footer/foot_icon.jpg"/>商家入驻</a>
+					<a href="product.html"><img src="img/footer/foot_icon.jpg"/>商家管理规定</a>
+					<a href="product.html"><img src="img/footer/foot_icon.jpg"/>商家中心</a>
+				</li>
+				<li class="bottom-last"><h3><a href="product.html" >利群商城订阅号</a></h3>
+					<img src="img/footer/foot-ewm1.jpg"/>
+				</li>
+				<li class="bottom-last"><h3><a href="product.html" >利群商城服务号</a></h3>
+					<img src="img/footer/foot-ewm2.jpg"/>
+					<a id="bottom-lasts" href="product.html">更多联盟商户</a>
+				</li>
+			
+			</ul>
+		</div>
+		<img id="footer-img" src="img/footer/foot_bg.jpg"/>
+		<div id="footer">
+			<ul>
+				<li><a href="product.html">关于我们</a> | </li>
+				<li> <a href="product.html">联系我们</a> | </li>
+				<li> <a href="product.html">诚聘英才</a> | </li>
+				<li> <a href="product.html">手机利群</a> | </li>
+				<li> <a href="product.html">销售联盟</a> | </li>
+				<li> <a href="product.html">友情链接</a> | </li>
+				<li> <a href="product.html">网站合作</a> | </li>
+				<li> <a href="product.html">帮助中心</a> | </li>
+				<li> <a href="product.html">版权说明</a></li>
+			</ul>
+			<ul>
+				<li><a href="product.html">利群集团</a> | </li>
+				<li> <a href="product.html">百货集团</a> | </li>
+				<li> <a href="product.html">利群网</a> | </li>
+				<li> <a href="product.html">利群酒店</a> | </li>
+				<li> <a href="product.html">利群房地产</a> | </li>
+				<li> <a href="product.html">利群旅行社</a> | </li>
+				<li> <a href="product.html">利群药品</a> | </li>
+				<li> <a href="product.html">利群影城</a> | </li>
+				<li> <a href="product.html">利群水站</a> |</li>
+				<li> <a href="product.html">利群家政</a></li>
+			</ul>
+			<p>鲁ICP证09054331号-2 Copyright&copy;2004-2015 利群集团青岛电子商务有限公司 版权所有 <img src="img/footer/pic1.gif"/> </p>
+		    <ul id="foot-last">
+		    	<a href="product.html"><img src="img/footer/tip_pic4.jpg"/></a>
+		    	<a href="product.html"><img src="img/footer/tip_pic1.jpg"/></a>
+		    	<a href="product.html"><img src="img/footer/tip_pic2.jpg"/></a>
+		    	<a href="product.html"><img src="img/footer/tip_pic3.png"/></a>
+		    </ul>
+		</div>
+		
+	<script  id="tabs"  type="text/html">
+    			<div  class="banner-ye">
+			 			 {{each list as value}}
+			 			    <div class="yema-con">
+			 			    	<div class="yema-top">
+			 			    	<img src={{value.top.imgsrc}} /><a href="">{{value.top.title}}</a><span>{{value.top.last}}</span>
+			 			    	</div>
+			 			    	<div class="yema-zhong">
+			 			    		{{each value.zhong  as k }}
+			 			    		<a href="product.html">{{value.zhong[k]}}</a>
+			 			    		{{/each}}
+			 			    	</div>
+			 			    	<div class="yema-bottom">
+			 			    		 <h4>{{value.bottom.title}}</h4>
+			 			    		{{each value.bottom.name as j}}
+			 			    		   <a href="product.html">{{j}}</a>
+			 			    		{{/each}}
+			 			    	</div>
+			 			    </div>
+			 			 {{/each}}
+			 			 
+			 		</div>
+   </script>    
+	</body>
+</html>

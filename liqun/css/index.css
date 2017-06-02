@@ -1,6 +1,7 @@
 #banner,#menu,#miaosha,#cao{width:1200px;margin:0 auto;}
 #banner{height:452px;}
 #banner-ul{height:452px;width:194px;background:#c81622;float:left;position:relative;}
+#banner-ul li div:nth-of-type(2) a:hover{text-decoration: underline;}
 #banner-ul li{height:11.11%;width:173px;padding-left:20px;}
 #banner-ul li .banner-top,.banner-bottom{width:140px;padding-left:25px;color:#FFFFFF;}
 #banner-ul li .banner-top,.banner-bottom span{font-size:14px;}
@@ -31,37 +32,7 @@ background:#656565;color:#bababa;border-radius:50%;text-align:center;line-height
 
 
 
-/*       模板样式*/
-#banner-ul li .content{display:none;}
- #banner-ul li .banner-ye{
- 	
-	position:absolute;
-	left:194px;  top:0;
-	   width:745px;min-height:450px;
-	   height:auto !important;
-	   height:450px;
-	   z-index: 99;
-	   background:#fff;
-	   border:1px solid #c81622;
-		 display:flex;
-	
-	   flex-wrap: wrap;
-	   align-content: flex-start;
-}
-#banner-ul li .banner-ye img{float:left;}
-#banner-ul li .banner-ye  span{float:right;}
-#banner-ul li .banner-ye  a{float:left;}
-#banner-ul li .banner-ye .yema-con{ width:32%;margin-left:1%;}
-#banner-ul li .banner-ye .yema-con:nth-of-type(1)  .yema-top span{color:red;}
-#banner-ul li .banner-ye .yema-top{border-bottom:1px solid #000000;width:100%;margin:5px 0 2px 0;float:left;}
-#banner-ul li .banner-ye .yema-top span{color:#333;margin-right:10px;margin-top:10px;}
-#banner-ul li .banner-ye .yema-top  a{font: 900 14px "";margin-top:10px;}
-#banner-ul li .banner-ye  .yema-zhong {padding-bottom:2px;width:100%;float:left;border-bottom:1px dashed #333333;}
-#banner-ul li .banner-ye  .yema-zhong a:hover{color:red;}
-#banner-ul li .banner-ye  .yema-zhong  a{float:left;padding:0 5px;line-height:12px;margin:5px 0;border-right:1px solid #333;}
-#banner-ul li .banner-ye  .yema-bottom{width:100%;float:left;}
-#banner-ul li .banner-ye  .yema-bottom  a{float:left;padding:0 5px;line-height:12px;margin:4px 0;border-right:1px solid #333;}
-#banner-ul li .banner-ye  .yema-bottom a:hover{color:red;}
+/*         */
 #menu{height:136px;margin-top:10px;}
 #menu-left{float:left;}
 #menu-right{width:1007px;border-right:1px solid #e2e2e2;height:100%;float:right;position:relative;}
@@ -84,7 +55,7 @@ background:#656565;color:#bababa;border-radius:50%;text-align:center;line-height
 #miaosha{height:500px;margin-top:20px;}
 #miaosha  #miao-right{float:right;}
 #miaosha  #miao-zhong{width:795px;height:500px;
-				/*	border:1px solid #656565;*/
+				
 					float:left;box-sizing: border-box;
 					}
 #miaosha #miao-zhong .miao-box{
@@ -115,7 +86,38 @@ height:160px;}
 #cao  {padding:20px 0;}
 #cao img{width:100%;}
 
-
+/*       nav模板样式*/
+#banner-ul li .content{display:none;}
+ #banner-ul li .banner-ye{
+ 	
+	position:absolute;
+	left:194px;  top:0;
+	   width:745px;min-height:450px;
+	   height:auto !important;
+	   height:450px;
+	   z-index: 99;
+	   background:#fff;
+	   border:1px solid #c81622;
+		 display:flex;
+	
+	   flex-wrap: wrap;
+	   align-content: flex-start;
+}
+#banner-ul li .banner-ye img{float:left;}
+#banner-ul li .banner-ye  span{float:right;}
+#banner-ul li .banner-ye  a{float:left;}
+#banner-ul li .banner-ye .yema-con{ width:32%;margin-left:1%;}
+#banner-ul li .banner-ye .yema-con:nth-of-type(1)  .yema-top span{color:red;}
+#banner-ul li .banner-ye .yema-top{border-bottom:1px solid #000000;width:100%;margin:5px 0 2px 0;float:left;}
+#banner-ul li .banner-ye .yema-top span{color:#333;margin-right:10px;margin-top:10px;}
+#banner-ul li .banner-ye .yema-top  a{font: 900 14px "";margin-top:10px;}
+#banner-ul li .banner-ye  .yema-zhong {padding-bottom:2px;width:100%;float:left;border-bottom:1px dashed #333333;}
+#banner-ul li .banner-ye  .yema-zhong a:hover{color:red;}
+#banner-ul li .banner-ye  .yema-zhong  a{float:left;padding:0 5px;line-height:12px;margin:5px 0;border-right:1px solid #333;}
+#banner-ul li .banner-ye  .yema-bottom{width:100%;float:left;}
+#banner-ul li .banner-ye  .yema-bottom  a{float:left;padding:0 5px;line-height:12px;margin:4px 0;border-right:1px solid #333;}
+#banner-ul li .banner-ye  .yema-bottom a:hover{color:red;}
+/*        nav模板结束*/
 
 
 
@@ -125,16 +127,14 @@ height:160px;}
 				position: fixed;
 				top: 150px;
 				right: 50px;
-				border: 1px solid #ddd;
 				display:block;
 			}
 			#LoutiNav ul li {
 				width: 32px;
 				height: 32px;
-				border-bottom: 1px dotted #e2e2e2;
+				border: 1px solid #ddd;
 				list-style: none;
 				font-size: 12px;
-				color: #666;
 				text-align: center;
 				line-height: 16px;
 				position: relative;
@@ -143,71 +143,89 @@ height:160px;}
 			}
 			#LoutiNav ul li span {
 				width: 32px;
-				height: 32px;
+				height: 36px;
 				position: absolute;
-				top: 0;
-				left: 0;
+				top: -4px;
+				left: -1px;
 			}
 			#LoutiNav ul li span {
 				display:none;
-			}
-			#LoutiNav ul li.last {
-				background: #C00;
-				color: #fff;
-				border-bottom: 1px solid #ddd;
-			}
-			
+			}	
 			#LoutiNav ul li.hover span {
-				background: #c00;
-				color: #fff;
-				display: none;
-			}
-			#LoutiNav ul li.hover span.active {
-				background: #c00;
-				color: #fff;
+				background: #ffdedd;
+				color:red;
+				border:1px solid #f7999a;
 				display: block;
 			}
-			#LoutiNav ul li span.active {
-				background: #fff;
-				color: #c00;
-				display: block;
+			#LoutiNav ul li.last  span{
+				color:#fff;
+				top:-1px;
+				width:34px;
+				background:#fc595a;
+				display:none;
 			}
 			#main {
 				width: 1200px;
-				
 				margin: 0 auto;
 			}
 			#main .Louti {
-				
 				height: 424px;
 				width: 1200px;
-				
 				margin-top:20px;
-				color: #fff;
 			
 			}
 			
 .lou-left{float:left;width:193px;height:100%;}
-.lou-left  h2{height:54px;line-height:54px;box-sizing:border-box;padding-left:20px;background:#c21117;width:100%;}
+.lou-left  h2{color:#fff;height:54px;line-height:54px;font-size:20px;box-sizing:border-box;padding-left:20px;background:#c21117;width:100%;}
 .lou-left  h2  span{margin-left:35px;}
-.lou-left  .louming{width:100%;overflow: hidden;}
-.lou-left  .louming li{float:left;width:45%;padding-left:5%;line-height:28px;}
+.lou-left  .louming{width:100%;overflow:hidden;}
+.lou-left  .louming  li{float:left;width:45%;padding-left:5%;line-height:28px;}
 .lou-left .left-banner {width:100%;height:175px;position:relative;}
+.lou-left .left-banner   img{width:100%;height:100%;}
 .lou-left .left-banner .lou-ul{bottom:5px;left:0;padding:0;width:100%;height:30px;position:absolute;}
 .lou-left .left-banner .lou-ul .lou-hover{background:transparent;}
 .lou-left .left-banner .lou-ul  span{width:10px;height:10px;border-radius:50%;background:#999999;display:inline-block;float:left;margin:13px 0;margin-left:10px;}
-.lou-banner{height:100%;width:284px;float:left;position:relative;}
+.lou-banner{height:424px;width:284px;float:left;position:relative;}
+.lou-banner  img{width:100%;height:100%;}
 .last-ul{position:absolute;bottom:20px;left:0;padding-left:20px;height:33px;}
 .last-ul span{display:inline-block;width:70px;height:10px;margin:10px 5px;background:#999;}
 .last-ul .last-hover{background:#feecea;}
-.lou-right{width:720px;height:100%;border:1px solid #0000FF;float:right;}
-.lou-right  ul{width:100%;height:36px;border-bottom:4px solid #d0d0d0;}
-.lou-right  ul 
+.lou-right{width:720px;height:100%;float:right;}
+.lou-right  ul{width:683px;height:36px;padding-left:37px;border-bottom:4px solid #d0d0d0;}
+/*            tab huan ye*/
+.lou-right  ul li{float:left;color:#000;
+					height:40px;
+					background-repeat: no-repeat;
+					background-position:bottom 0 left 0 ;
+					font-size:16px;
+					width:90px;
+					line-height:40px;
+					margin-right:20px;
+					text-align:center;
+					} 
+.lou-right  .lou-last{width:720px;height:384px;}
+.lou-right  .lou-last .last-right{height:100%;width:127px;float:right;}
+.lou-right  .lou-last .last-right a{display:inline-block;width:90%;margin:1px 5%;height:12.7%;border-bottom:1px solid #f2f2f2;}
+.lou-right  .lou-last .last-right a img{display:inline-block;width:100%;height:100%;}
+.lou-right  .lou-last  .last-left{width:593px;height:100%;box-sizing: border-box;float:left;}
+ .last-left  .tab-ye{border:1px solid #f4f4f4;box-sizing: border-box;width:33.3%;height:50%;float:left;}
+ .last-left  .tab-ye  .tab-dan{margin-bottom:5px;display:block;box-sizing: border-box;height:75%;width:100%;padding:5% 15%;}
+ .last-left  .tab-ye  .tab-zi{padding-left:20px;}	
+  .last-left  .tab-ye  .tab-dan img{height:100%;width:100%;}
+  .last-left  .tab-ye  p{color:#e5383c;box-sizing: border-box;padding-left:20px;padding-right:10px;}
+ .last-left  .tab-ye  p span{line-height:14px;margin-top:3px;float:right;background:#b5b4b4;color:#fff;padding:0 4px;border-radius:10px;}
 
 
-
-
-
-
-
-
+/*                   5lou danduyangshi */
+.Louti:nth-of-type(5) .lou-banner{height:424px;width:416px;float:left;position:relative;}
+.Louti:nth-of-type(5)  .lou-right  .lou-last .last-left{width:590px;}
+.Louti:nth-of-type(5)  .last-ul  span {display:none;}
+.Louti:nth-of-type(5)  .lou-right  {width:590px;}
+.Louti:nth-of-type(5)  .lou-right  ul {width:553px;}
+.Louti:nth-of-type(5)  .lou-left  .louming li{line-height:32px;}
+.Louti:nth-of-type(5) .lou-left .left-banner  {height:210px;}
+.Louti:nth-of-type(2)  .lou-left  h2{background:#268bb9;}
+.Louti:nth-of-type(3)  .lou-left  h2{background:#ebbd05;}
+.Louti:nth-of-type(4)  .lou-left  h2{background:#ef4e9a;}
+.Louti:nth-of-type(5)  .lou-left  h2{background:#b15f23;}
+.Louti:nth-of-type(6)  .lou-left  h2{background:#3cb38d;}

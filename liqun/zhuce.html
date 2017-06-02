@@ -6,7 +6,9 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<link rel="stylesheet" type="text/css" href="css/zhuce.css"/>
 		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/zhuce.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
 		 <div  id="box">
@@ -18,47 +20,47 @@
 		<div  id="header">
 			<div id="head-nav">
 			hi,欢迎来到利群商城！
-			 <a href="#">请登录</a>
-			 <a href="#">免费注册</a>
+			 <a href="denglu.html">请登录</a>
+			 <a href="zhuce.html">免费注册</a>
 			 <ul  id="head-ul">
-			 	<li><a href="#">我的订单 </a><li>|</li></li>
-			 	<li><span class="head-tu"><img src="img/header/vip.jpg"/></span><a href="#">会员中心</a><li>|</li></li>
+			 	<li><a href="gouwu.html">我的订单 </a><li>|</li></li>
+			 	<li><span class="head-tu"><img src="img/header/vip.jpg"/></span><a href="product.html">会员中心</a><li>|</li></li>
 			 	<li id="head-chu">
-			 		<a href="#">客户服务</a><span id="head-jiao" ><img src="img/header/customer_service.jpg"/></span>
+			 		<a href="product.html">客户服务</a><span id="head-jiao" ><img src="img/header/customer_service.jpg"/></span>
 			 		<ul>
-			 			<li><a href="#">帮助中心</a></li>
-			 			<li><a href="#">售后服务</a></li>
-			 			<li><a href="#">在线投诉</a></li>
+			 			<li><a href="product.html">帮助中心</a></li>
+			 			<li><a href="product.html">售后服务</a></li>
+			 			<li><a href="product.html">在线投诉</a></li>
 			 		</ul>
 			 	</li> <li>|</li>
-			 	<li><span class="head-tu"><img src="img/header/liqun_mobile.jpg"/></span><a href="#">手机利群</a><li>|</li></li>
-			 	<li ><a id="wang" href="#">利群官网</a><li>|</li></li>
+			 	<li><span class="head-tu"><img src="img/header/liqun_mobile.jpg"/></span><a href="product.html">手机利群</a><li>|</li></li>
+			 	<li ><a id="wang" href="product.html">利群官网</a><li>|</li></li>
 			 	<li><span class="guanzhu"> 关注利群：</span></li>
 			    <li><span id="head-td"><img src="img/header/tdcode.jpg"/>
 			    	<div id="head-td-chu"><img src="img/header/code_small.jpg"/></div>
 			    </span>
 			    	
-                    <a href="#"><img src="img/header/qq.jpg"/></a>
-                    <a id="head-right" href="#"><img src="img/header/sina.jpg"/></a>
+                    <a href="product.html"><img src="img/header/qq.jpg"/></a>
+                    <a id="head-right" href="product.html"><img src="img/header/sina.jpg"/></a>
 			 </ul>
 			</div>	
 		</div>
 		  <div id="top">
-		  	  <h1 id="logo"><a href="#"><img src="img/header/3571.gif"/></a></h1>
+		  	  <h1 id="logo"><a href="index.html"></a><a href="product.html"><img src="img/header/3571.gif"/></a></h1>
 		  	  <form>
 		  	  	   <div id="top-shuru"><input placeholder="欧莱雅" type="text" id="shuru"/></div>
 		  	  	   <input type="button" id="seach" value="搜  索">
-		  	  	   <div id="top-nav"> 热门搜索： <a href="#">数码专场</a>
-		  	  	   				<a href="#">小家电大促</a>
-		  	  	   				<a href="#">大家电</a>
-		  	  	   				<a href="#">美妆大促</a>
-		  	  	   				<a href="#">母婴专场</a>
-		  	  	   				<a href="#">超市专场</a>
-		  	  	   				<a href="#">全球购钜惠</a>
+		  	  	   <div id="top-nav"> 热门搜索： <a href="product.html">数码专场</a>
+		  	  	   				<a href="product.html">小家电大促</a>
+		  	  	   				<a href="product.html">大家电</a>
+		  	  	   				<a href="product.html">美妆大促</a>
+		  	  	   				<a href="product.html">母婴专场</a>
+		  	  	   				<a href="product.html">超市专场</a>
+		  	  	   				<a href="product.html">全球购钜惠</a>
 		  	  	   </div>
 		  	  </form>
 		  	  <div id="top-right">
-		  	  	 <a href="#"><img src="img/header/go_cart.jpg"/></a>
+		  	  	 <a href="gouwu.html" id="top-che"><p>0</p></a>
 		  	  	 <img src="img/header/hot_tel.jpg"/>
 		  	  </div>
 		  </div>
@@ -88,11 +90,11 @@
 		       	 	<p><span>*</span>验证码：</p>
 		       	 	<img src="zhuce/GetValidateCode.jpg"/>
 		       		<input class="kong" type="text"  >	
-		       		<span  id="huan">看不清?</span><a href="#">换一张</a>
+		       		<span  id="huan">看不清?</span><a href="product.html">换一张</a>
 		       	</div>
 		       
 		       		<input type="checkbox" checked="" id="xuan">
-		       		<div  id="xuan-zi"><span>我已阅读并同意</span> <a href="#">《利群商城交易条款》</a></div>
+		       		<div  id="xuan-zi"><span>我已阅读并同意</span> <a href="product.html">《利群商城交易条款》</a></div>
 					<span  class="xian">请接收服务条款</span>
 		       	<input type="button" id="btn" value="立即注册"/>
 	
@@ -104,34 +106,34 @@
 		  <!--footer -->
 		  	<div id="footer">
 			<ul>
-				<li><a href="#">关于我们</a> | </li>
-				<li> <a href="#">联系我们</a> | </li>
-				<li> <a href="#">诚聘英才</a> | </li>
-				<li> <a href="#">手机利群</a> | </li>
-				<li> <a href="#">销售联盟</a> | </li>
-				<li> <a href="#">友情链接</a> | </li>
-				<li> <a href="#">网站合作</a> | </li>
-				<li> <a href="#">帮助中心</a> | </li>
-				<li> <a href="#">版权说明</a></li>
+				<li><a href="product.html">关于我们</a> | </li>
+				<li> <a href="product.html">联系我们</a> | </li>
+				<li> <a href="product.html">诚聘英才</a> | </li>
+				<li> <a href="product.html">手机利群</a> | </li>
+				<li> <a href="product.html">销售联盟</a> | </li>
+				<li> <a href="product.html">友情链接</a> | </li>
+				<li> <a href="product.html">网站合作</a> | </li>
+				<li> <a href="product.html">帮助中心</a> | </li>
+				<li> <a href="product.html">版权说明</a></li>
 			</ul>
 			<ul>
-				<li><a href="#">利群集团</a> | </li>
-				<li> <a href="#">百货集团</a> | </li>
-				<li> <a href="#">利群网</a> | </li>
-				<li> <a href="#">利群酒店</a> | </li>
-				<li> <a href="#">利群房地产</a> | </li>
-				<li> <a href="#">利群旅行社</a> | </li>
-				<li> <a href="#">利群药品</a> | </li>
-				<li> <a href="#">利群影城</a> | </li>
-				<li> <a href="#">利群水站</a> |</li>
-				<li> <a href="#">利群家政</a></li>
+				<li><a href="product.html">利群集团</a> | </li>
+				<li> <a href="product.html">百货集团</a> | </li>
+				<li> <a href="product.html">利群网</a> | </li>
+				<li> <a href="product.html">利群酒店</a> | </li>
+				<li> <a href="product.html">利群房地产</a> | </li>
+				<li> <a href="product.html">利群旅行社</a> | </li>
+				<li> <a href="product.html">利群药品</a> | </li>
+				<li> <a href="product.html">利群影城</a> | </li>
+				<li> <a href="product.html">利群水站</a> |</li>
+				<li> <a href="product.html">利群家政</a></li>
 			</ul>
 			<p>鲁ICP证09054331号-2 Copyright&copy;2004-2015 利群集团青岛电子商务有限公司 版权所有 <img src="img/footer/pic1.gif"/> </p>
 		    <ul id="foot-last">
-		    	<a href="#"><img src="img/footer/tip_pic4.jpg"/></a>
-		    	<a href="#"><img src="img/footer/tip_pic1.jpg"/></a>
-		    	<a href="#"><img src="img/footer/tip_pic2.jpg"/></a>
-		    	<a href="#"><img src="img/footer/tip_pic3.png"/></a>
+		    	<a href="product.html"><img src="img/footer/tip_pic4.jpg"/></a>
+		    	<a href="product.html"><img src="img/footer/tip_pic1.jpg"/></a>
+		    	<a href="product.html"><img src="img/footer/tip_pic2.jpg"/></a>
+		    	<a href="product.html"><img src="img/footer/tip_pic3.png"/></a>
 		    </ul>
 		</div>
 	

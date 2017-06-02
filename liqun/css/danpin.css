@@ -1,0 +1,67 @@
+body{width:100%;height:100%;}
+#section{margin-top:10px;}
+#section #sec-right #dan-top {width:100%;}
+#section #sec-right #dan-top h2{display:inline-block;font-size:20px;color:#000;}
+#dan-data{margin-top:30px;height:400px;}
+/*             放大镜样式*/
+#dan-data #dan-img{position:relative;height:246px;width:246px;float:left;background:url(../product/dan_bg.gif) no-repeat left 0 top 0 ;}
+#dan-data #dan-img  #small{margin-top: 5px; margin-left: 5px;}
+#dan-data #dan-img  #small #fdj{display:none;position:absolute;left:0;top:0;width:120px;height:120px;background:rgba(255,255,0,.5);}
+#dan-data #dan-img #big{display:none;position:absolute;width:300px;height:300px;
+						left:246px;top:0;overflow:hidden;}						
+#dan-data #dan-img #big img{width:600px;height:600px;position:absolute;left:0;top:0;}
+/*              放大镜结束*/
+#dan-data #dan-right{float:right;width:690px;height:400px;}
+ #dan-data #dan-right h1{    width: 690px;
+    height: auto;
+    line-height: 24px;
+    font-size: 20px;
+    text-align: left;
+    color: #2F2F2F;
+    border-bottom: 1px dotted #D3D3D3;}   
+   #dan-data #dan-right h1 span{color:#e4393c;}  
+#dan-data #dan-right #jieshao {width: 470px;
+color:#000;
+    height: auto;
+    margin-top: 5px;
+    float: left;
+    border-bottom:1px dotted #D3D3D3;}    
+   #dan-data #dan-right #jieshao  dt{    height: 28px;
+    line-height: 25px;}  
+     #dan-data #dan-right #jieshao  dt:nth-of-type(1) span{font-size: 20px;    font-weight: bold;
+    color: #E81D0E;} 
+      #dan-data #dan-right #jieshao dt:nth-last-of-type(1) span{color:#E81D0E;}
+  #dan-data #dan-right #goumai{width: 470px;
+color:#000;
+    height: auto;
+    margin-top: 5px;
+    float: left;
+    } 
+    #dan-data #dan-right #goumai dt:nth-of-type(1) {margin-top:10px;}
+    #dan-data #dan-right #goumai dt:nth-of-type(1) span{float:left;margin-top:5px;}
+     #dan-data #dan-right #goumai dt:nth-of-type(1)  ul{float:left;width:410px;}
+    #dan-data #dan-right #goumai dt:nth-of-type(1) a{cursor: pointer;padding:5px;border:2px solid #D3D3D3;display:inline-block;margin-right:10px;margin-bottom:5px;}        
+#dan-data #dan-right #goumai #goumai-xuan  .xuan-hover{border:2px solid #f00;} 
+#dan-data #dan-right #goumai #goumai-xuan a:hover{color:#f00;}  
+ #dan-data #dan-right #goumai dt:nth-of-type(2) span{float:left;}
+#dan-data #dan-right #goumai dt:nth-of-type(2) ul{float:left;width:300px;}
+#goumai dt:nth-of-type(2) ul a{float:left;}
+#dan-data #dan-right #goumai dt:nth-of-type(2) a{line-height:14px;height:14px;margin-top:4px;padding:0 5px;border:1px solid #D3D3D3;cursor: pointer;}
+#goumai dt:nth-of-type(2) div{float:left;width:36px;height:22px;border:1px solid #D3D3D3;text-align:center;line-height:22px;margin:0 5px;}
+#dan-btn{margin:20px 0 0 5px;width:135px;padding:0;height:36px;background:url(../product/buy.jpg);border:0;outline: none;}
+
+
+#dan-bottom{width:100%;height:auto;margin:10px 0 ;}
+#dan-bottom #dan-nav{height:36px;width:100%;box-sizing: border-box;border:1px solid #ddd;border-top:2px solid #dfdfdf;background:#f8f7f5;}
+#dan-bottom #dan-nav  a{float:left;width:100px;font-size:14px;height:36px;color:#000;text-align:center;line-height:34px;}
+#dan-bottom #dan-nav a:hover{color:#f00;}
+#dan-bottom #dan-nav .dianji{position:relative;left:-1px; top:-8px;padding-top:4px;background:#fff;color:#f00;border:1px solid #dfdfdf;border-top:2px solid #f00;border-bottom:0;}
+#dan-bottom #dan-pic{padding-top:10px;width:100%;}
+#dan-bottom #dan-pic img{margin:0 auto;}
+
+
+
+
+
+
+

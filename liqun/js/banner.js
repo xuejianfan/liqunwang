@@ -5,7 +5,7 @@ function banner(oli, obtn, classname) {
 		var ali = oli;
 		var abtn = obtn;
 		var ming=setInterval(move, 3000);
-
+		abtn.eq(0).addClass(classname).siblings().removeClass(classname);
 		function move() {
 			index++;
 			if(index == ali.length) {
@@ -20,10 +20,11 @@ function banner(oli, obtn, classname) {
 		}, function() {
 			ming = setInterval(move, 3000);
 		});
+		
+		
 		abtn.hover(function() {
 			clearInterval(ming);
 			index = $(this).index();
-			console.log(index);
 			ali.eq(index).fadeIn(300).siblings().hide();
 			abtn.eq(index).addClass(classname).siblings().removeClass(classname);
 		}, function() {
@@ -163,10 +164,9 @@ $(function() {
 		for(var i = 0; i < data.length; i++) {
 			var html = "";
 			for(var j = 0; j < data[i].length; j++) {
-				html += "<a href='#'><img src='" + data[i][j] + "'/></a>";
+				html += "<a href='product.html'><img src='" + data[i][j] + "'/></a>";
 			}
 			html1 += "<li>" + html + "</li>";
-
 		};
 		$("#menu-right ul").html(html1);
 	}).done(function() {
@@ -185,16 +185,14 @@ $(function() {
 			var html = "";
 			var odate = "";
 			for(var j = 0; j < data1[i].length; j++) {
-
-				html += "<div  class='miaodan'><a class='miaopic' href='#'><img src='" + data1[i][j].imgsrc + "' /></a><a class='miaozi' href='#'>" + data1[i][j].title + "</a><p>抢购价：<span>" + data1[i][j].money + "</span></p><p><img src='img/banner1/biao.jpg'/><span  class='ms'>" + time + "</span></p></div>";
-			
+				html += "<div  class='miaodan'><a class='miaopic' href='product.html'><img src='" + data1[i][j].imgsrc + "' /></a><a class='miaozi' href='product.html'>" + data1[i][j].title + "</a><p>抢购价：<span>" + data1[i][j].money + "</span></p><p><img src='img/banner1/biao.jpg'/><span  class='ms'>" + time + "</span></p></div>";
 			}
 			html2 += "<li>" + html + "</li>";
 		}
 
 		$(".miaolist").html(html2);
 
-		var index = 0;
+	
 		$(data1).each(function(index, item) {
 			$(item).each(function(i, m) {
 				odate = new Date(m.time);

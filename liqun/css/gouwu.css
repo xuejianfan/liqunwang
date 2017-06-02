@@ -1,0 +1,21 @@
+#chetop{width:1000px;margin:0 auto;height:auto;border:1px solid #ccc;border-top:0;}
+table{height:34px;width:100%;border:1px solid #DEDEDE;background:#dedede;}
+table td{text-align:center;}
+#chelist{width:100%;height:auto;}
+#chelist li{width:100%;height:78px;}
+#chelist li div{float:left;}
+#chelist li div:nth-of-type(n+2){height:50px;margin-top:28px;text-align:center;}
+#chelist li .pic img{margin:2px 10px 0 50px;width:72px;height:72px;border:1px solid #dedede;}
+#chelist li .name{width:180px;}
+#chelist li .name a:hover{text-decoration:underline;}
+#chelist li .pirce{width:116px;}
+#chelist li .num{margin:0 20px;}
+#chelist li .xiaoji{width:97px;}
+#chelist li .jifen{width:100px;}
+#chelist li .caozuo{width:100px;}
+#chelist li .caozuo a{text-decoration: underline;color:#d10707;}
+
+#chelist  .num a{float:left;}
+#chelist  .num input{float:left;}
+#chelist  .num a{line-height:14px;height:14px;margin-top:4px;padding:0 5px;border:1px solid #D3D3D3;cursor: pointer;}
+#chelist  .num input{width:36px;height:22px;border:1px solid #D3D3D3;text-align:center;line-height:22px;margin:0 5px;}
